@@ -5,3 +5,71 @@ paleta de cores
 verde #49a09d
 lilás #5f2c82
 */
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: var(--cor1);
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+
+    transition: width 0.5s, heigth 0.5s;
+    transition-timing-function: ease;
+}
+
+section#login > div#imagem{
+    background: var(--cor1) url(../imagens/pexels-lizzy-honey-15639111.jpg) no-repeat ;
+    background-size: cover;
+    background-position: left bottom;
+    height: 200px;
+    display: block;
+}
+
+#login > #formulario{
+    display: block;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root{
+    --cor0: #49a09d;
+    --cor1: #5f2c82;
+}
